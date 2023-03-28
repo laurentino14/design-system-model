@@ -1,0 +1,4 @@
+{
+  "extends": "@lvdev/ts-config/react.json",
+  "include": ["src"]
+}

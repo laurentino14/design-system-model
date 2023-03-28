@@ -1,0 +1,38 @@
+{
+  "name": "@lvdev/docs",
+  "version": "1.0.0",
+  "description": "Storybook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider build-storybook"
+  },
+  "author": {
+    "name": "Lucas Laurentino",
+    "email": "laurentinodeev@gmail.com",
+    "url": "www.github.com/laurentino14"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "@lvdev/eslint-config": "*",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/builder-vite": "^0.4.2",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "^0.0.13",
+    "@vitejs/plugin-react": "^3.1.0",
+    "babel-loader": "^8.3.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.2.1"
+  },
+  "dependencies": {
+    "@lvdev/react": "*",
+    "@lvdev/ts-config": "*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

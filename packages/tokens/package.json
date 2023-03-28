@@ -1,0 +1,20 @@
+{
+  "name": "@lvdev/tokens",
+  "version": "1.0.2",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsup src/index.ts --format esm,cjs --dts --watch",
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "lint": "eslint src/** --ext .tsx --ext .ts --fix"
+  },
+  "devDependencies": {
+    "tsup": "^6.6.3",
+    "@lvdev/eslint-config": "*",
+    "typescript": "^4.9.5",
+    "@lvdev/ts-config": "*",
+    "tailwindcss": "^3.2.7"
+  }
+}

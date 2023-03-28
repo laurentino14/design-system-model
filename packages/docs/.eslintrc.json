@@ -1,0 +1,4 @@
+{
+  "extends": "@lvdev/eslint-config",
+  "ignorePatterns": ["src/assets/*", "src/pages/*"]
+}

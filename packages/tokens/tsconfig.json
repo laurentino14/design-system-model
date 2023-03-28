@@ -1,0 +1,4 @@
+{
+  "extends": "@lvdev/ts-config/base.json",
+  "include": ["src"]
+}
